@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041A2FCB18EB17B20051E855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A2FCA18EB17B20051E855 /* Foundation.framework */; };
+		041A2FCD18EB17B20051E855 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A2FCC18EB17B20051E855 /* CoreGraphics.framework */; };
+		041A2FCF18EB17B20051E855 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A2FCE18EB17B20051E855 /* UIKit.framework */; };
+		041A2FD518EB17B20051E855 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041A2FD318EB17B20051E855 /* InfoPlist.strings */; };
+		041A2FD718EB17B20051E855 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A2FD618EB17B20051E855 /* main.m */; };
+		041A2FDB18EB17B20051E855 /* fumaoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A2FDA18EB17B20051E855 /* fumaoAppDelegate.m */; };
+		041A2FDE18EB17B20051E855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041A2FDC18EB17B20051E855 /* Main.storyboard */; };
+		041A2FE118EB17B20051E855 /* fumaoFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A2FE018EB17B20051E855 /* fumaoFirstViewController.m */; };
+		041A2FE418EB17B20051E855 /* fumaoSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A2FE318EB17B20051E855 /* fumaoSecondViewController.m */; };
+		041A2FE618EB17B20051E855 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041A2FE518EB17B20051E855 /* Images.xcassets */; };
+		041A2FED18EB17B20051E855 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A2FEC18EB17B20051E855 /* XCTest.framework */; };
+		041A2FEE18EB17B20051E855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A2FCA18EB17B20051E855 /* Foundation.framework */; };
+		041A2FEF18EB17B20051E855 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A2FCE18EB17B20051E855 /* UIKit.framework */; };
+		041A2FF718EB17B20051E855 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041A2FF518EB17B20051E855 /* InfoPlist.strings */; };
+		041A2FF918EB17B20051E855 /* fumaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A2FF818EB17B20051E855 /* fumaoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041A2FF018EB17B20051E855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041A2FBF18EB17B20051E855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041A2FC618EB17B20051E855;
+			remoteInfo = fumao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041A2FC718EB17B20051E855 /* fumao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fumao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041A2FCA18EB17B20051E855 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		041A2FCC18EB17B20051E855 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		041A2FCE18EB17B20051E855 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		041A2FD218EB17B20051E855 /* fumao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fumao-Info.plist"; sourceTree = "<group>"; };
+		041A2FD418EB17B20051E855 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041A2FD618EB17B20051E855 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041A2FD818EB17B20051E855 /* fumao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fumao-Prefix.pch"; sourceTree = "<group>"; };
+		041A2FD918EB17B20051E855 /* fumaoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fumaoAppDelegate.h; sourceTree = "<group>"; };
+		041A2FDA18EB17B20051E855 /* fumaoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fumaoAppDelegate.m; sourceTree = "<group>"; };
+		041A2FDD18EB17B20051E855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041A2FDF18EB17B20051E855 /* fumaoFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fumaoFirstViewController.h; sourceTree = "<group>"; };
+		041A2FE018EB17B20051E855 /* fumaoFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fumaoFirstViewController.m; sourceTree = "<group>"; };
+		041A2FE218EB17B20051E855 /* fumaoSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fumaoSecondViewController.h; sourceTree = "<group>"; };
+		041A2FE318EB17B20051E855 /* fumaoSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fumaoSecondViewController.m; sourceTree = "<group>"; };
+		041A2FE518EB17B20051E855 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		041A2FEB18EB17B20051E855 /* fumaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fumaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041A2FEC18EB17B20051E855 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		041A2FF418EB17B20051E855 /* fumaoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fumaoTests-Info.plist"; sourceTree = "<group>"; };
+		041A2FF618EB17B20051E855 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041A2FF818EB17B20051E855 /* fumaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fumaoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041A2FC418EB17B20051E855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A2FCD18EB17B20051E855 /* CoreGraphics.framework in Frameworks */,
+				041A2FCF18EB17B20051E855 /* UIKit.framework in Frameworks */,
+				041A2FCB18EB17B20051E855 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041A2FE818EB17B20051E855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A2FED18EB17B20051E855 /* XCTest.framework in Frameworks */,
+				041A2FEF18EB17B20051E855 /* UIKit.framework in Frameworks */,
+				041A2FEE18EB17B20051E855 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041A2FBE18EB17B20051E855 = {
+			isa = PBXGroup;
+			children = (
+				041A2FD018EB17B20051E855 /* fumao */,
+				041A2FF218EB17B20051E855 /* fumaoTests */,
+				041A2FC918EB17B20051E855 /* Frameworks */,
+				041A2FC818EB17B20051E855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041A2FC818EB17B20051E855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041A2FC718EB17B20051E855 /* fumao.app */,
+				041A2FEB18EB17B20051E855 /* fumaoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041A2FC918EB17B20051E855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041A2FCA18EB17B20051E855 /* Foundation.framework */,
+				041A2FCC18EB17B20051E855 /* CoreGraphics.framework */,
+				041A2FCE18EB17B20051E855 /* UIKit.framework */,
+				041A2FEC18EB17B20051E855 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041A2FD018EB17B20051E855 /* fumao */ = {
+			isa = PBXGroup;
+			children = (
+				041A2FD918EB17B20051E855 /* fumaoAppDelegate.h */,
+				041A2FDA18EB17B20051E855 /* fumaoAppDelegate.m */,
+				041A2FDC18EB17B20051E855 /* Main.storyboard */,
+				041A2FDF18EB17B20051E855 /* fumaoFirstViewController.h */,
+				041A2FE018EB17B20051E855 /* fumaoFirstViewController.m */,
+				041A2FE218EB17B20051E855 /* fumaoSecondViewController.h */,
+				041A2FE318EB17B20051E855 /* fumaoSecondViewController.m */,
+				041A2FE518EB17B20051E855 /* Images.xcassets */,
+				041A2FD118EB17B20051E855 /* Supporting Files */,
+			);
+			path = fumao;
+			sourceTree = "<group>";
+		};
+		041A2FD118EB17B20051E855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041A2FD218EB17B20051E855 /* fumao-Info.plist */,
+				041A2FD318EB17B20051E855 /* InfoPlist.strings */,
+				041A2FD618EB17B20051E855 /* main.m */,
+				041A2FD818EB17B20051E855 /* fumao-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041A2FF218EB17B20051E855 /* fumaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				041A2FF818EB17B20051E855 /* fumaoTests.m */,
+				041A2FF318EB17B20051E855 /* Supporting Files */,
+			);
+			path = fumaoTests;
+			sourceTree = "<group>";
+		};
+		041A2FF318EB17B20051E855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041A2FF418EB17B20051E855 /* fumaoTests-Info.plist */,
+				041A2FF518EB17B20051E855 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041A2FC618EB17B20051E855 /* fumao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041A2FFC18EB17B20051E855 /* Build configuration list for PBXNativeTarget "fumao" */;
+			buildPhases = (
+				041A2FC318EB17B20051E855 /* Sources */,
+				041A2FC418EB17B20051E855 /* Frameworks */,
+				041A2FC518EB17B20051E855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fumao;
+			productName = fumao;
+			productReference = 041A2FC718EB17B20051E855 /* fumao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041A2FEA18EB17B20051E855 /* fumaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041A2FFF18EB17B20051E855 /* Build configuration list for PBXNativeTarget "fumaoTests" */;
+			buildPhases = (
+				041A2FE718EB17B20051E855 /* Sources */,
+				041A2FE818EB17B20051E855 /* Frameworks */,
+				041A2FE918EB17B20051E855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041A2FF118EB17B20051E855 /* PBXTargetDependency */,
+			);
+			name = fumaoTests;
+			productName = fumaoTests;
+			productReference = 041A2FEB18EB17B20051E855 /* fumaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041A2FBF18EB17B20051E855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = fumao;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = fumao.app;
+				TargetAttributes = {
+					041A2FEA18EB17B20051E855 = {
+						TestTargetID = 041A2FC618EB17B20051E855;
+					};
+				};
+			};
+			buildConfigurationList = 041A2FC218EB17B20051E855 /* Build configuration list for PBXProject "fumao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041A2FBE18EB17B20051E855;
+			productRefGroup = 041A2FC818EB17B20051E855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041A2FC618EB17B20051E855 /* fumao */,
+				041A2FEA18EB17B20051E855 /* fumaoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041A2FC518EB17B20051E855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A2FE618EB17B20051E855 /* Images.xcassets in Resources */,
+				041A2FD518EB17B20051E855 /* InfoPlist.strings in Resources */,
+				041A2FDE18EB17B20051E855 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041A2FE918EB17B20051E855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A2FF718EB17B20051E855 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041A2FC318EB17B20051E855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A2FE118EB17B20051E855 /* fumaoFirstViewController.m in Sources */,
+				041A2FE418EB17B20051E855 /* fumaoSecondViewController.m in Sources */,
+				041A2FD718EB17B20051E855 /* main.m in Sources */,
+				041A2FDB18EB17B20051E855 /* fumaoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041A2FE718EB17B20051E855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A2FF918EB17B20051E855 /* fumaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041A2FF118EB17B20051E855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041A2FC618EB17B20051E855 /* fumao */;
+			targetProxy = 041A2FF018EB17B20051E855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041A2FD318EB17B20051E855 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041A2FD418EB17B20051E855 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		041A2FDC18EB17B20051E855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041A2FDD18EB17B20051E855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041A2FF518EB17B20051E855 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041A2FF618EB17B20051E855 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041A2FFA18EB17B20051E855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		041A2FFB18EB17B20051E855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041A2FFD18EB17B20051E855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fumao/fumao-Prefix.pch";
+				INFOPLIST_FILE = "fumao/fumao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		041A2FFE18EB17B20051E855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fumao/fumao-Prefix.pch";
+				INFOPLIST_FILE = "fumao/fumao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		041A300018EB17B20051E855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fumao.app/fumao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fumao/fumao-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fumaoTests/fumaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		041A300118EB17B20051E855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fumao.app/fumao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fumao/fumao-Prefix.pch";
+				INFOPLIST_FILE = "fumaoTests/fumaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041A2FC218EB17B20051E855 /* Build configuration list for PBXProject "fumao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041A2FFA18EB17B20051E855 /* Debug */,
+				041A2FFB18EB17B20051E855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041A2FFC18EB17B20051E855 /* Build configuration list for PBXNativeTarget "fumao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041A2FFD18EB17B20051E855 /* Debug */,
+				041A2FFE18EB17B20051E855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041A2FFF18EB17B20051E855 /* Build configuration list for PBXNativeTarget "fumaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041A300018EB17B20051E855 /* Debug */,
+				041A300118EB17B20051E855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041A2FBF18EB17B20051E855 /* Project object */;
+}
