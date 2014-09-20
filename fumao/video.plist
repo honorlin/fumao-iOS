@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>video_1_title</key>
+	<string>公聽會第一場 貿易協定、租車、貨運等運輸業</string>
+	<key>video_1_url</key>
+	<string>1</string>
+	<key>video_2_title</key>
+	<string>公聽會第二場 海運、公路運輸</string>
+	<key>video_2_url</key>
+	<string>11</string>
+	<key>video_3_title</key>
+	<string>公聽會第三場 醫療、技術檢測與分析服務業、社會服務業、醫療器材</string>
+	<key>video_3_url</key>
+	<string>21</string>
+	<key>video_4_title</key>
+	<string>公聽會第四場 第二類電信、娛樂服務業、電影或錄影帶行銷</string>
+	<key>video_4_url</key>
+	<string>31</string>
+	<key>video_5_title</key>
+	<string>公聽會第五場 銀行、金融業</string>
+	<key>video_5_url</key>
+	<string>41</string>
+	<key>video_6_title</key>
+	<string>公聽會第六場 證券、期貨及其相關服務業</string>
+	<key>video_6_url</key>
+	<string>51</string>
+	<key>video_7_title</key>
+	<string>公聽會第七場 快遞、空運、貨物集散與承攬</string>
+	<key>video_7_url</key>
+	<string>61</string>
+	<key>video_8_title</key>
+	<string>公聽會第八場 旅館、旅行社及旅遊服務、遊樂園、空中纜車</string>
+	<key>video_8_url</key>
+	<string>71</string>
+	<key>video_9_title</key>
+	<string>公聽會第九場 管理顧問、翻譯傳譯、洗衣染色、美髮美容</string>
+	<key>video_9_url</key>
+	<string>81</string>
+	<key>video_10_title</key>
+	<string>公聽會第十場 資訊業、租賃業(航空器.機器及設備)、線上遊戲</string>
+	<key>video_10_url</key>
+	<string>91</string>
+	<key>video_11_title</key>
+	<string>公聽會第十一場 畜牧業、營建業、保險、殯儀館</string>
+	<key>video_11_url</key>
+	<string>101</string>
+	<key>video_12_title</key>
+	<string>公聽會第十二場 批發業、零售業、經銷、食物及飲料提供</string>
+	<key>video_12_url</key>
+	<string>111</string>
+	<key>video_13_title</key>
+	<string>公聽會第十三場 廣告服務、市場研究、複製服務、郵寄名單編輯</string>
+	<key>video_13_url</key>
+	<string>121</string>
+	<key>video_14_title</key>
+	<string>公聽會第十四場 攝影業、包裝服務、印刷相關服務、展覽服務</string>
+	<key>video_14_url</key>
+	<string>131</string>
+	<key>video_15_title</key>
+	<string>公聽會第十五場 技術檢測與分析、建築物清理、環境服務</string>
+	<key>video_15_url</key>
+	<string>141</string>
+</dict>
+</plist>

@@ -16,6 +16,12 @@
 
 - (void)viewDidLoad
 {
+    fumao_plist = @"fumao";
+    //list_image_plist = @"book_image";
+    //list_source_plist = @"book_url";
+    ViwerTitle = @"全民共審服貿";
+    support_desp_file = @"support01";
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

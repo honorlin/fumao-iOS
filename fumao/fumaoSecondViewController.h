@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface fumaoSecondViewController : UIViewController
+#import "fumaoListWebViewController.h"
+@interface fumaoSecondViewController : fumaoListWebViewController
 
 @end

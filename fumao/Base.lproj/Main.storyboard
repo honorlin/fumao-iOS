@@ -1,94 +1,196 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
     <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier First View Controller - First-->
+        <!--Fumao First View Controller - First-->
         <scene sceneID="W3I-pn-N6e">
             <objects>
                 <viewController title="First" id="CZ4-MO-1fc" customClass="fumaoFirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="s9W-kb-ARv"/>
-                        <viewControllerLayoutGuide type="bottom" id="dtj-EO-iXF"/>
+                        <viewControllerLayoutGuide type="top" id="6ZH-ID-w1e"/>
+                        <viewControllerLayoutGuide type="bottom" id="p0d-qE-26k"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2VE-Yg-loa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zhg-ve-WU7">
-                                <rect key="frame" x="20" y="158" width="280" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ly.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="SOT-j5-Lw2">
+                                <rect key="frame" x="0.0" y="20" width="320" height="233"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="台灣服貿全民共審" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OkT-10-ydD">
+                                <rect key="frame" x="92" y="261" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tZ3-Hv-Q7E">
-                                <rect key="frame" x="20" y="240" width="280" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="rDj-Sg-2Zj"/>
-                                </constraints>
-                                <string key="text">Loaded by the first view controller — an instance of fumaoFirstViewController — specified in the app delegate.</string>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edw-fg-SSd">
+                                <rect key="frame" x="0.0" y="283" width="320" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">太陽花學運，又稱318學運、佔領國會事件等等，是指2014年3月18日起臺灣的大學學生和公民們共同發起佔領中華民國立法院所引起的社會運動事件。事件起始於當地時間3月18日晚間18時，一群大學與研究所的學生們反對國民黨籍立法委員張慶忠兼內政委員會召集人以30秒之快草率宣布完成 《兩岸服務貿易協議》（簡稱服貿）的委員會審查，並在立法院外舉行「守護民主之夜」晚會
+
+你仔細看了服貿條文之後,會發現是一個賣台的協議,對既得利益者,當然支持,但是對大部份的人是會收到很大的影響,但是學運的訴求一直得不到政府的回應
+
+既然政府試圖利用蒙混的方式,讓他過關,但是我們能這樣放縱嗎？既然如此我們就來全民共審</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="tZ3-Hv-Q7E" secondAttribute="trailing" constant="20" symbolic="YES" id="94m-GQ-azi"/>
-                            <constraint firstItem="tZ3-Hv-Q7E" firstAttribute="top" secondItem="Zhg-ve-WU7" secondAttribute="bottom" constant="40" id="G3o-MK-III"/>
-                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="JQj-gp-vk2"/>
-                            <constraint firstAttribute="trailing" secondItem="Zhg-ve-WU7" secondAttribute="trailing" constant="20" symbolic="YES" id="eHs-J5-0HT"/>
-                            <constraint firstItem="tZ3-Hv-Q7E" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="lKy-m9-LcB"/>
-                            <constraint firstAttribute="centerY" secondItem="tZ3-Hv-Q7E" secondAttribute="centerY" id="xLM-BA-nZb"/>
+                            <constraint firstAttribute="bottom" secondItem="edw-fg-SSd" secondAttribute="bottom" constant="50" id="PtT-nI-fqH"/>
+                            <constraint firstItem="edw-fg-SSd" firstAttribute="top" secondItem="2VE-Yg-loa" secondAttribute="top" constant="283" id="ZBF-NO-2Jb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="u1e-5L-l1D"/>
+                    <tabBarItem key="tabBarItem" title="原由" image="first" id="u1e-5L-l1D"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--class Prefix:identifier Second View Controller - Second-->
+        <!--Tab4 View Controller - 公聽會-->
+        <scene sceneID="4li-AM-HYe">
+            <objects>
+                <viewController id="Jjq-KL-F1Z" customClass="tab4ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0WO-3c-3cX"/>
+                        <viewControllerLayoutGuide type="bottom" id="1JW-oq-TH0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bcn-AY-GcI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="SLh-a4-tT7">
+                                <rect key="frame" x="0.0" y="54" width="320" height="465"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="QUy-BD-bpt" id="uSv-Yp-nZK"/>
+                                    <outlet property="delegate" destination="QUy-BD-bpt" id="Yzr-jV-qPJ"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Crt-gU-zO4">
+                                <rect key="frame" x="0.0" y="10" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="公聽會場次列表" id="rge-u3-SwM"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SLh-a4-tT7" firstAttribute="leading" secondItem="Bcn-AY-GcI" secondAttribute="leading" id="0yh-yK-NrT"/>
+                            <constraint firstAttribute="bottom" secondItem="SLh-a4-tT7" secondAttribute="bottom" constant="49" id="9RQ-6Z-w4c"/>
+                            <constraint firstItem="SLh-a4-tT7" firstAttribute="top" secondItem="Bcn-AY-GcI" secondAttribute="top" constant="54" id="ggA-aR-1I5"/>
+                            <constraint firstAttribute="trailing" secondItem="Crt-gU-zO4" secondAttribute="trailing" id="gkc-cj-0YG"/>
+                            <constraint firstItem="Crt-gU-zO4" firstAttribute="leading" secondItem="Bcn-AY-GcI" secondAttribute="leading" id="hCf-mv-ha2"/>
+                            <constraint firstAttribute="trailing" secondItem="SLh-a4-tT7" secondAttribute="trailing" id="psY-Ca-gA9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="公聽會" image="first" id="dzn-Eq-RGA"/>
+                    <connections>
+                        <outlet property="UINavigationBar1" destination="Crt-gU-zO4" id="An8-UF-GtX"/>
+                        <outlet property="UITableView1" destination="SLh-a4-tT7" id="sHY-5m-qzD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uq5-zk-N07" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-179" y="848"/>
+        </scene>
+        <!--Tab3 View Controller - 關於本APP-->
+        <scene sceneID="MxH-UR-bWf">
+            <objects>
+                <viewController id="Uqk-rw-KNl" customClass="tab3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c2d-Eh-07k"/>
+                        <viewControllerLayoutGuide type="bottom" id="v2R-Mx-ZZP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Apq-Pl-Ebd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JyL-vD-93F">
+                                <rect key="frame" x="0.0" y="54" width="320" height="465"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VkK-9M-xFm">
+                                <rect key="frame" x="0.0" y="10" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="台灣服貿全民共審" id="7M5-Ge-Z6p"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JyL-vD-93F" secondAttribute="trailing" id="33h-j5-o0N"/>
+                            <constraint firstItem="JyL-vD-93F" firstAttribute="leading" secondItem="Apq-Pl-Ebd" secondAttribute="leading" id="M7o-Mm-aaz"/>
+                            <constraint firstItem="VkK-9M-xFm" firstAttribute="leading" secondItem="Apq-Pl-Ebd" secondAttribute="leading" id="kzw-NB-Sex"/>
+                            <constraint firstAttribute="bottom" secondItem="JyL-vD-93F" secondAttribute="bottom" constant="49" id="o8C-A3-V7d"/>
+                            <constraint firstAttribute="trailing" secondItem="VkK-9M-xFm" secondAttribute="trailing" id="qdk-xr-4wU"/>
+                            <constraint firstItem="JyL-vD-93F" firstAttribute="top" secondItem="Apq-Pl-Ebd" secondAttribute="top" constant="54" id="yTa-9J-2e4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="關於本APP" image="second" id="chg-rI-tdc"/>
+                    <connections>
+                        <outlet property="uiWebView1" destination="JyL-vD-93F" id="arZ-wV-TpJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SKa-51-b7c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="312" y="854"/>
+        </scene>
+        <!--Fumao Second View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
             <objects>
                 <viewController title="Second" id="QUy-BD-bpt" customClass="fumaoSecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FgS-U6-xeU"/>
-                        <viewControllerLayoutGuide type="bottom" id="stI-4g-hlJ"/>
+                        <viewControllerLayoutGuide type="top" id="s0p-vM-QOY"/>
+                        <viewControllerLayoutGuide type="bottom" id="h4d-76-wK3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gMD-aP-Fq6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="29h-N2-YGT">
-                                <rect key="frame" x="20" y="158" width="280" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DcM-Fx-MKR">
-                                <rect key="frame" x="20" y="240" width="280" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="9fN-Zf-E0i"/>
-                                </constraints>
-                                <string key="text">Loaded by the second view controller — an instance of fumaoSecondViewController — specified in the app delegate.</string>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="uOX-mF-PvI">
+                                <rect key="frame" x="0.0" y="54" width="320" height="465"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="QUy-BD-bpt" id="9YK-dA-bBM"/>
+                                    <outlet property="delegate" destination="QUy-BD-bpt" id="BOg-up-aAh"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="FFI-r5-5MC">
+                                <rect key="frame" x="285" y="22" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zjz-KD-vZ8">
+                                <rect key="frame" x="0.0" y="10" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="全民共審服貿" id="gcS-hc-Yoj"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="29h-N2-YGT" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" symbolic="YES" id="4te-rk-9Fp"/>
-                            <constraint firstAttribute="trailing" secondItem="29h-N2-YGT" secondAttribute="trailing" constant="20" symbolic="YES" id="FIx-Zl-RBr"/>
-                            <constraint firstItem="DcM-Fx-MKR" firstAttribute="top" secondItem="29h-N2-YGT" secondAttribute="bottom" constant="40" id="Gb1-a9-eY8"/>
-                            <constraint firstAttribute="trailing" secondItem="DcM-Fx-MKR" secondAttribute="trailing" constant="20" symbolic="YES" id="XTh-ji-q0k"/>
-                            <constraint firstItem="DcM-Fx-MKR" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" symbolic="YES" id="l9f-S9-V20"/>
-                            <constraint firstAttribute="centerY" secondItem="DcM-Fx-MKR" secondAttribute="centerY" id="lHZ-e8-ii2"/>
+                            <constraint firstItem="Zjz-KD-vZ8" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" id="YXy-vX-cYr"/>
+                            <constraint firstAttribute="trailing" secondItem="Zjz-KD-vZ8" secondAttribute="trailing" id="fhh-fo-XDi"/>
+                            <constraint firstAttribute="trailing" secondItem="uOX-mF-PvI" secondAttribute="trailing" id="iCZ-db-3QR"/>
+                            <constraint firstItem="uOX-mF-PvI" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" id="vj4-rL-dVd"/>
+                            <constraint firstAttribute="bottom" secondItem="uOX-mF-PvI" secondAttribute="bottom" constant="51" id="x1p-5p-goL"/>
+                            <constraint firstItem="uOX-mF-PvI" firstAttribute="top" secondItem="gMD-aP-Fq6" secondAttribute="top" constant="54" id="zKy-IP-scp"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="Z7h-1E-pvt"/>
+                    <tabBarItem key="tabBarItem" title="全民共審服貿" image="second" id="Z7h-1E-pvt"/>
+                    <connections>
+                        <outlet property="UINavigationBar1" destination="Zjz-KD-vZ8" id="pKV-LG-LeR"/>
+                        <outlet property="UITableView1" destination="uOX-mF-PvI" id="opo-Ps-0fV"/>
+                        <outlet property="myActivityIndicatorView1" destination="FFI-r5-5MC" id="QUx-TJ-iRY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
@@ -107,16 +209,19 @@
                     <connections>
                         <segue destination="CZ4-MO-1fc" kind="relationship" relationship="viewControllers" id="SUk-Ux-ee1"/>
                         <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
+                        <segue destination="Jjq-KL-F1Z" kind="relationship" relationship="viewControllers" id="cpT-uO-7p6"/>
+                        <segue destination="Uqk-rw-KNl" kind="relationship" relationship="viewControllers" id="VXe-ej-y2d"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="180"/>
+            <point key="canvasLocation" x="-43" y="150"/>
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
-        <image name="second" width="16" height="16"/>
+        <image name="first" width="30" height="30"/>
+        <image name="ly.jpeg" width="600" height="327"/>
+        <image name="second" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
